@@ -72,7 +72,7 @@ public class Dashboard {
 				break;
 			}
 			log.info("If you want to Create Accounts or View Your Accounts press 1!\n" + "		* Press 1 to continue\n"
-					+ "		* or anything else to go to the EMPLOYEE DASHBOARD!\n");
+					+ "		* or anything else to go to the MAIN DASHBOARD!\n");
 			run = sc.nextLine().equals("1") ? true : false;
 
 		} while (run);
@@ -396,9 +396,9 @@ public class Dashboard {
 				+ "		* Enter anything else to go to the EMPLOYEE DASHBOARD\n");
 
 		// accesses the db
-		List<BankAccount> pending = BankAccount.getAllPendingAccounts();
 		boolean run = true;
 		do {
+			List<BankAccount> pending = BankAccount.getAllPendingAccounts();
 			if (pending == null || pending.isEmpty()) {
 				log.info("Sorry, there are no accounts!\n");
 			} else {

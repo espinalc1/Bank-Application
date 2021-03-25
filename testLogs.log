@@ -1997,3 +1997,1044 @@ INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transact
 INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=313, account=185, amount=10.0, status=pending]
 INFO - {class: com.cryptobank.models.UserCreateTest} - [[account_number=185, account_balance=0.0, account_user=190]]
 INFO - {class: com.cryptobank.models.UserCreateTest} - [[account_number=186, account_balance=200.0, account_user=191]]
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, espinalc
+INFO - {class: com.cryptobank.main.Main} - Hello, espinalc.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - espinalc's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - ... Leaving!
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to create an account?
+		* Press 1 to create an account
+		* Press anything else to quit to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - espinalc's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - ... Leaving!
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - espinalc's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please try again!
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - ... Leaving!
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, espinalc
+INFO - {class: com.cryptobank.main.Main} - Hello, espinalc.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - espinalc's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - ... Leaving!
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.main.Main} - Would you like to continue or leave?
+Press "1" to continue.
+Enter any other key to leave!
+
+INFO - {class: com.cryptobank.main.Main} - Take care!
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, espinalc
+INFO - {class: com.cryptobank.main.Main} - Hello, espinalc.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to create an account?
+		* Press 1 to create an account
+		* Press anything else to quit to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the MAIN DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - espinalc's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - ... Leaving!
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the MAIN DASHBOARD!
+
+INFO - {class: com.cryptobank.main.Main} - Would you like to continue or leave?
+Press "1" to continue.
+Enter any other key to leave!
+
+INFO - {class: com.cryptobank.main.Main} - Take care!
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.main.Main} - Sorry, that is not a correct command.
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, revature
+INFO - {class: com.cryptobank.main.Main} - Hello, revature.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the employee dashboard, revature
+		* Press 1 to View Bank Acounts in the Crypto Bank System
+		* Press 2 to Approve New Customer Accounts
+Also, remember, that as an employee you automatically generate an Account
+		* Press 3 to access your personal customer dashbaord
+If you want to quit, enter any other button.
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Approve New Customer Accounts
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the PENDING ACCOUNTS DASHBOARD, revature
+		* You can approve of Pending Accounts in this dashboard
+		* Enter the account number to approve:
+		* Enter anything else to go to the EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=182, account_balance=45.0, account_user=187]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=183, account_balance=155.0, account_user=188]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 6 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 7 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the employee dashboard, revature
+		* Press 1 to View Bank Acounts in the Crypto Bank System
+		* Press 2 to Approve New Customer Accounts
+Also, remember, that as an employee you automatically generate an Account
+		* Press 3 to access your personal customer dashbaord
+If you want to quit, enter any other button.
+
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - We're so glad that you're taking the first steps to modernize your banking.
+Once again, welcome to the blockchain!
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - What type of account are you creating today?
+Enter 1 for Customer Account
+Enter 2 for *Employee Account
+		* You can apply for a bank account in your dashboard!
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - This user name is already taken. Please try again
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter an email address.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* Your email address must be valid.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter an email address.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - This email is already taken. Please try again
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter an email address.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* Your email address must be valid.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter an email address.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a password! Here are the rules: 
+		* Your password must be between 8 and 15 characters long
+		* It can include any of the following characters:
+				* upper and lower case characters and numbers.
+				* !@#$%^&*
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Now, one more time!
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - User [userName=espinalc2, email=anemail@email.com]
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - If you'd like, try to login with your new username and password!
+INFO - {class: com.cryptobank.main.Main} - Would you like to continue or leave?
+Press "1" to continue.
+Enter any other key to leave!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, espinalc2
+INFO - {class: com.cryptobank.main.Main} - Hello, espinalc2.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - espinalc2's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - ... Leaving!
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the MAIN DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to create an account?
+		* Press 1 to create an account
+		* Press anything else to quit to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the MAIN DASHBOARD!
+
+INFO - {class: com.cryptobank.main.Main} - Would you like to continue or leave?
+Press "1" to continue.
+Enter any other key to leave!
+
+INFO - {class: com.cryptobank.main.Main} - Take care!
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, revature
+INFO - {class: com.cryptobank.main.Main} - Hello, revature.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the employee dashboard, revature
+		* Press 1 to View Bank Acounts in the Crypto Bank System
+		* Press 2 to Approve New Customer Accounts
+Also, remember, that as an employee you automatically generate an Account
+		* Press 3 to access your personal customer dashbaord
+If you want to quit, enter any other button.
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Approve New Customer Accounts
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the PENDING ACCOUNTS DASHBOARD, revature
+		* You can approve of Pending Accounts in this dashboard
+		* Enter the account number to approve:
+		* Enter anything else to go to the EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=182, account_balance=45.0, account_user=187]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=183, account_balance=155.0, account_user=188]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 6 [account_number=188, account_balance=100.0, account_user=192]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 7 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 8 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - What would you like to do to this account?
+		* Enter 1 to approve
+		* Enter 2 to delete
+		* Enter anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=182, account_balance=45.0, account_user=187]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=183, account_balance=155.0, account_user=188]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 6 [account_number=188, account_balance=100.0, account_user=192]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 7 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 8 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - What would you like to do to this account?
+		* Enter 1 to approve
+		* Enter 2 to delete
+		* Enter anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=182, account_balance=45.0, account_user=187]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=183, account_balance=155.0, account_user=188]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 6 [account_number=188, account_balance=100.0, account_user=192]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 7 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 8 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - What would you like to do to this account?
+		* Enter 1 to approve
+		* Enter 2 to delete
+		* Enter anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=182, account_balance=45.0, account_user=187]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=183, account_balance=155.0, account_user=188]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 6 [account_number=188, account_balance=100.0, account_user=192]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 7 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 8 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - What would you like to do to this account?
+		* Enter 1 to approve
+		* Enter 2 to delete
+		* Enter anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit
+
+INFO - {class: com.cryptobank.main.Main} - Would you like to continue or leave?
+Press "1" to continue.
+Enter any other key to leave!
+
+INFO - {class: com.cryptobank.main.Main} - Take care!
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, espinalc2
+INFO - {class: com.cryptobank.main.Main} - Hello, espinalc2.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - espinalc2's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=188, account_balance=100.0, account_user=192]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - ... Leaving!
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the MAIN DASHBOARD!
+
+INFO - {class: com.cryptobank.main.Main} - Would you like to continue or leave?
+Press "1" to continue.
+Enter any other key to leave!
+
+INFO - {class: com.cryptobank.main.Main} - Take care!
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.main.Main} - Sorry, that is not a correct command.
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - We're so glad that you're taking the first steps to modernize your banking.
+Once again, welcome to the blockchain!
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - What type of account are you creating today?
+Enter 1 for Customer Account
+Enter 2 for *Employee Account
+		* You can apply for a bank account in your dashboard!
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - That is not a valid choice. Please try again!
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - What type of account are you creating today?
+Enter 1 for Customer Account
+Enter 2 for *Employee Account
+		* You can apply for a bank account in your dashboard!
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - That is not a valid choice. Please try again!
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - What type of account are you creating today?
+Enter 1 for Customer Account
+Enter 2 for *Employee Account
+		* You can apply for a bank account in your dashboard!
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, espinalc
+INFO - {class: com.cryptobank.main.Main} - Hello, espinalc.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - espinalc's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the Transaction dashboard, espinalc
+		* Press 1 to withdraw from this account!
+		* Press 2 to Transfer Money to another account!
+		* Press 3 to view Pending Withdrawals
+		* Press 4 to view Transaction HistoryCurrent Account: 
+		[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+How much would you like to withdraw from your account?
+
+INFO - {class: com.cryptobank.DAOImpl.TransactionDAOImpl} - Insufficient Funds!
+INFO - {class: com.cryptobank.frontend.Dashboard} - Sorry, the transaction wasn't successful!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the TRANSACTIONS DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+How much would you like to withdraw from your account?
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - The following transaction was successful: 
+		[type= Withdrawal, transaction_id=314, account=90, amount=0.0, status=pending]
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the TRANSACTIONS DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+How much would you like to withdraw from your account?
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Sorry, that number was incorrect!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the ACCOUNTS DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the Transaction dashboard, espinalc
+		* Press 1 to withdraw from this account!
+		* Press 2 to Transfer Money to another account!
+		* Press 3 to view Pending Withdrawals
+		* Press 4 to view Transaction HistoryCurrent Account: 
+		[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - Transfer Funds dashboard
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the account number that you will transfer to:
+		* An invalid number will cause you to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Now please enter an amount!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - The transfer payment to the following account!:
+		Receiver [account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to try again or exit?
+		* Press 1 to continue
+ 		* Press anything else to return to the TRANSACTION DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Transfer Funds dashboard
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the account number that you will transfer to:
+		* An invalid number will cause you to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Account number's don't have letters!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the ACCOUNTS DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the Transaction dashboard, espinalc
+		* Press 1 to withdraw from this account!
+		* Press 2 to Transfer Money to another account!
+		* Press 3 to view Pending Withdrawals
+		* Press 4 to view Transaction HistoryCurrent Account: 
+		[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - INCOMING TRANSFERS DASHBOARD, espinalc
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 		index =0  [transaction_id= 276 amount= 0.0 receiver= espinalc]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 		index =1  [transaction_id= 277 amount= 0.0 receiver= espinalc]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 		index =2  [transaction_id= 278 amount= 0.0 receiver= espinalc]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 		index =3  [transaction_id= 279 amount= 0.0 receiver= espinalc]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 		index =4  [transaction_id= 280 amount= 0.0 receiver= espinalc]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 		index =5  [transaction_id= 281 amount= 0.0 receiver= espinalc]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 		index =6  [transaction_id= 315 amount= 0.0 receiver= espinalc]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Type in the index of the Transfer you'd like to approve or reject:
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - What would you like to do with the following account:
+[transaction_id= 315 amount= 0.0 receiver= espinalc]
+			* Press 1 to Approve this transfer
+			* Press 2 to Reject this transfer
+			* Press any other button to go back
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - You have chosen to ACCEPT this transfer
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to return to the TRANSACTION DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the ACCOUNTS DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the Transaction dashboard, espinalc
+		* Press 1 to withdraw from this account!
+		* Press 2 to Transfer Money to another account!
+		* Press 3 to view Pending Withdrawals
+		* Press 4 to view Transaction HistoryCurrent Account: 
+		[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the ACCOUNTS DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the Transaction dashboard, espinalc
+		* Press 1 to withdraw from this account!
+		* Press 2 to Transfer Money to another account!
+		* Press 3 to view Pending Withdrawals
+		* Press 4 to view Transaction HistoryCurrent Account: 
+		[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the ACCOUNTS DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the Transaction dashboard, espinalc
+		* Press 1 to withdraw from this account!
+		* Press 2 to Transfer Money to another account!
+		* Press 3 to view Pending Withdrawals
+		* Press 4 to view Transaction HistoryCurrent Account: 
+		[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - TRANSACTION HISTORY DASHBOARD, espinalc
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Withdrawal, transaction_id=273, account=24, amount=0.0, status=pending]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Withdrawal, transaction_id=274, account=24, amount=0.0, status=pending]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Transfer, transaction_id=276, account=24, amount=0.0, status=pending]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Transfer, transaction_id=277, account=24, amount=0.0, status=pending]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Transfer, transaction_id=278, account=24, amount=0.0, status=pending]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Withdrawal, transaction_id=272, account=24, amount=0.0, status=completed]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Withdrawal, transaction_id=40, account=24, amount=0.0, status=completed]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Transfer, transaction_id=279, account=24, amount=0.0, status=pending]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Transfer, transaction_id=280, account=24, amount=0.0, status=pending]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Transfer, transaction_id=281, account=25, amount=0.0, status=pending]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Transfer, transaction_id=275, account=24, amount=0.0, status=completed]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Transfer, transaction_id=282, account=25, amount=0.0, status=completed]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Withdrawal, transaction_id=314, account=90, amount=0.0, status=pending]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	Time 1  [type= Transfer, transaction_id=315, account=90, amount=0.0, status=completed]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to return to the TRANSACTION DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the ACCOUNTS DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to go to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the MAIN DASHBOARD!
+
+INFO - {class: com.cryptobank.main.Main} - Would you like to continue or leave?
+Press "1" to continue.
+Enter any other key to leave!
+
+INFO - {class: com.cryptobank.main.Main} - Take care!
+INFO - {class: com.cryptobank.models.UserCreateTest} - User [userName=testUser9, email=testEmail9@test.com]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [account_number=189, account_balance=100.0, account_user=193]
+INFO - {class: com.cryptobank.models.UserCreateTest} - User [userName=testUser10, email=testEmail10@test.com]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [account_number=190, account_balance=100.0, account_user=194]
+INFO - {class: com.cryptobank.models.UserCreateTest} - It worked!!
+INFO - {class: com.cryptobank.models.UserCreateTest} - It worked!!
+INFO - {class: com.cryptobank.models.UserCreateTest} - It worked!!
+INFO - {class: com.cryptobank.models.UserCreateTest} - It worked!!
+INFO - {class: com.cryptobank.models.UserCreateTest} - It worked!!
+INFO - {class: com.cryptobank.models.UserCreateTest} - It worked!!
+INFO - {class: com.cryptobank.models.UserCreateTest} - It worked!!
+INFO - {class: com.cryptobank.models.UserCreateTest} - It worked!!
+INFO - {class: com.cryptobank.models.UserCreateTest} - It worked!!
+INFO - {class: com.cryptobank.models.UserCreateTest} - It worked!!
+INFO - {class: com.cryptobank.DAOImpl.TransactionDAOImpl} - Insufficient Funds!
+INFO - {class: com.cryptobank.models.UserCreateTest} - Failed!
+INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=316, account=189, amount=10.0, status=pending]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=317, account=189, amount=10.0, status=pending]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=318, account=189, amount=10.0, status=pending]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=319, account=189, amount=10.0, status=pending]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=320, account=189, amount=10.0, status=pending]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=321, account=189, amount=10.0, status=pending]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=322, account=189, amount=10.0, status=pending]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=323, account=189, amount=10.0, status=pending]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=324, account=189, amount=10.0, status=pending]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [type= Transfer, transaction_id=325, account=189, amount=10.0, status=pending]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [[account_number=189, account_balance=0.0, account_user=193]]
+INFO - {class: com.cryptobank.models.UserCreateTest} - [[account_number=190, account_balance=200.0, account_user=194]]
+INFO - {class: com.cryptobank.models.UserCreateTest} - User [userName=testUser9, email=testEmail9@test.com]
+INFO - {class: com.cryptobank.models.UserCreateTest} - User [userName=testUser9, email=testEmail9@test.com]
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, espinalc
+INFO - {class: com.cryptobank.main.Main} - Hello, espinalc.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - espinalc's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=24, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=175, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=90, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=25, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - ... Leaving!
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the MAIN DASHBOARD!
+
+INFO - {class: com.cryptobank.main.Main} - Would you like to continue or leave?
+Press "1" to continue.
+Enter any other key to leave!
+
+INFO - {class: com.cryptobank.main.Main} - Take care!
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, revature
+INFO - {class: com.cryptobank.main.Main} - Hello, revature.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the employee dashboard, revature
+		* Press 1 to View Bank Acounts in the Crypto Bank System
+		* Press 2 to Approve New Customer Accounts
+Also, remember, that as an employee you automatically generate an Account
+		* Press 3 to access your personal customer dashbaord
+If you want to quit, enter any other button.
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Approve New Customer Accounts
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the PENDING ACCOUNTS DASHBOARD, revature
+		* You can approve of Pending Accounts in this dashboard
+		* Enter the account number to approve:
+		* Enter anything else to go to the EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=188, account_balance=100.0, account_user=192]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 6 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 7 [account_number=189, account_balance=0.0, account_user=193]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 8 [account_number=190, account_balance=200.0, account_user=194]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - What would you like to do to this account?
+		* Enter 1 to approve
+		* Enter 2 to delete
+		* Enter anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=188, account_balance=100.0, account_user=192]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 6 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 7 [account_number=189, account_balance=0.0, account_user=193]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 8 [account_number=190, account_balance=200.0, account_user=194]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - What would you like to do to this account?
+		* Enter 1 to approve
+		* Enter 2 to delete
+		* Enter anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=188, account_balance=100.0, account_user=192]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 6 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 7 [account_number=189, account_balance=0.0, account_user=193]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 8 [account_number=190, account_balance=200.0, account_user=194]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, revature
+INFO - {class: com.cryptobank.main.Main} - Hello, revature.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the employee dashboard, revature
+		* Press 1 to View Bank Acounts in the Crypto Bank System
+		* Press 2 to Approve New Customer Accounts
+Also, remember, that as an employee you automatically generate an Account
+		* Press 3 to access your personal customer dashbaord
+If you want to quit, enter any other button.
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Approve New Customer Accounts
+INFO - {class: com.cryptobank.frontend.Dashboard} - Welcome to the PENDING ACCOUNTS DASHBOARD, revature
+		* You can approve of Pending Accounts in this dashboard
+		* Enter the account number to approve:
+		* Enter anything else to go to the EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=176, account_balance=0.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 6 [account_number=189, account_balance=0.0, account_user=193]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 7 [account_number=190, account_balance=200.0, account_user=194]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - What would you like to do to this account?
+		* Enter 1 to approve
+		* Enter 2 to delete
+		* Enter anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=189, account_balance=0.0, account_user=193]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 6 [account_number=190, account_balance=200.0, account_user=194]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
