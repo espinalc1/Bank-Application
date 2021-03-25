@@ -12,7 +12,7 @@ import com.cryptobank.DAOImpl.AccountDAOImpl;
 import com.cryptobank.DAOImpl.TransactionDAOImpl;
 import com.cryptobank.DAOImpl.UserDAOImpl;
 
-public class DeleteTransactionTest {
+public class TransferTest2 {
 	private static Logger log = Logger.getLogger(UserCreateTest.class);
 	private static UserDAO userDao = new UserDAOImpl();
 	private static AccountDAO accountDao = new AccountDAOImpl();
@@ -25,15 +25,15 @@ public class DeleteTransactionTest {
 
 	@Before
 	public void setUpUsers() {
-		testUser = User.getUser("testUser1", "12341234");
+		testUser = User.getUser("testUser3", "12341234");
 		log.info(testUser);
 		testAccount = accountDao.getUserAccounts(testUser).get(0);
 
-		testUser2 = User.getUser("testUser2", "12341234");
+		testUser2 = User.getUser("testUser4", "12341234");
 		log.info(testUser2);
 		testAccount2 = accountDao.getUserAccounts(testUser2).get(0);
 
-		testTran = new Transfer(testAccount, testAccount2, 0.0);
+		testTran = new Transfer(testAccount, testAccount2, 20.0);
 		testTran.setTransaction_id(Transfer.makeTransaction(testTran));
 	}
 

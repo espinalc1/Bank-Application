@@ -72,7 +72,7 @@ public class Dashboard {
 				break;
 			}
 			log.info("If you want to Create Accounts or View Your Accounts press 1!\n" + "		* Press 1 to continue\n"
-					+ "		* or anything else to go to LOG OUT!\n");
+					+ "		* or anything else to go to the EMPLOYEE DASHBOARD!\n");
 			run = sc.nextLine().equals("1") ? true : false;
 
 		} while (run);
@@ -161,10 +161,8 @@ public class Dashboard {
 			log.info("Welcome to the Transaction dashboard, " + user.getUserName() + "\n"
 					+ "		* Press 1 to withdraw from this account!\n"
 					+ "		* Press 2 to Transfer Money to another account!\n"
-					+ "		* Press 3 to view Pending Withdrawals\n"
-					+ "		* Press 4 to view Transaction History" 
-					+ "Current Account: \n" + "		"
-					+ ba.toString());
+					+ "		* Press 3 to view Pending Withdrawals\n" + "		* Press 4 to view Transaction History"
+					+ "Current Account: \n" + "		" + ba.toString());
 
 			String choice = sc.nextLine();
 			switch (choice) {
@@ -251,6 +249,10 @@ public class Dashboard {
 			double amount = 0.00;
 			try {
 				amount = Double.parseDouble(sc.nextLine());
+				if (amount < 0) {
+					log.info("Sorry, this is not a valid amount for a transaction!");
+					break;
+				}
 			} catch (NumberFormatException e) {
 				log.info("No letters please!\n");
 				break;
@@ -269,7 +271,7 @@ public class Dashboard {
 				log.info("I'm sorry, the transfer payment wasn't successful!\n");
 			}
 
-			log.info("Would you like to continue or exit?\n" + "		* Press 1 to continue\n"
+			log.info("Would you like to try again or exit?\n" + "		* Press 1 to continue\n"
 					+ " 		* Press anything else to return to the TRANSACTION DASHBOARD\n");
 			run = sc.nextLine().equals("1") ? true : false;
 
@@ -281,17 +283,17 @@ public class Dashboard {
 		boolean run = true;
 		do {
 			log.info("INCOMING TRANSFERS DASHBOARD, " + user.getUserName() + "\n");
-	
+
 			// check to see if an account exists
 			// exit if not a good value
 			// a method to get all of the Users' incoming transfers
 			List<Transfer> trans = Transfer.getTransfersByUser(user);
 			int i = 0;
 			for (Transfer tran : trans) {
-				log.info("		" + tran);
+				log.info("		index =" + i + "  " + tran.toString());
 				i++;
 			}
-	
+
 			// select the transfer to approve
 			log.info("\nType in the index of the Transfer you'd like to approve or reject:\n");
 			int transfer_index = 0;
@@ -308,7 +310,7 @@ public class Dashboard {
 				log.info("Account number's don't have letters! Please try again!\n");
 				break;
 			}
-	
+
 			log.info("What would you like to do with the following account:\n" + selected_tran + "\n"
 					+ "			* Press 1 to Approve this transfer\n" + "			* Press 2 to Reject this transfer\n"
 					+ "			* Press any other button to go back\n");
@@ -325,24 +327,24 @@ public class Dashboard {
 			default:
 				break;
 			}
-	
+
 			// A method to approve of the incoming transaction
 			log.info("Would you like to continue or exit?\n" + "		* Press 1 to continue\n"
 					+ " 		* Press anything else to return to the TRANSACTION DASHBOARD\n");
 			run = sc.nextLine().equals("1") ? true : false;
-	
+
 		} while (run);
-	
+
 	}
 
 	public void transactionHistoryDashboard(Scanner sc, User user, BankAccount ba) {
 		boolean run = true;
 		do {
 			log.info("TRANSACTION HISTORY DASHBOARD, " + user.getUserName() + "\n");
-			
+
 			List<Transaction> trans = Transaction.getTransactionsByUser(user);
 			trans.stream().forEach(tran -> log.info("	Time 1  " + tran));
-			
+
 			log.info("\nWould you like to continue or exit?\n" + "		* Press 1 to continue\n"
 					+ " 		* Press anything else to return to the TRANSACTION DASHBOARD\n");
 			run = sc.nextLine().equals("1") ? true : false;
@@ -390,7 +392,8 @@ public class Dashboard {
 	public void PendingAccountsDashboard(Scanner sc, User user) {
 		log.info("Welcome to the PENDING ACCOUNTS DASHBOARD, " + user.getUserName() + "\n"
 				+ "		* You can approve of Pending Accounts in this dashboard\n"
-				+ "		* Enter the account number to approve:\n");
+				+ "		* Enter the account number to approve:\n"
+				+ "		* Enter anything else to go to the EMPLOYEE DASHBOARD\n");
 
 		// accesses the db
 		List<BankAccount> pending = BankAccount.getAllPendingAccounts();
@@ -406,31 +409,38 @@ public class Dashboard {
 				}
 
 				log.info("\nEnter the index of the account you'd like to approve or delete here: \n"
-						+ "			* Press any other number to quit!\n");
+						+ "		* Press any other number to quit to the EMPLOYEE DASHBOARD!\n");
 
-				int index = Integer.parseInt(sc.nextLine());
-
-				if (index < 0 || index > i)
+				int index = 0;
+				try {
+					index = Integer.parseInt(sc.nextLine());
+					if (index < 0 || index > i)
+						break;
+				} catch (NumberFormatException e) {
+					log.info("... Leaving\n");
 					break;
+				}
+
 				// approve in db
 				// get account
 				BankAccount selected_account = pending.get(index);
 
 				log.info("What would you like to do to this account?\n" + "		* Enter 1 to approve\n"
-						+ "		* Enter 2 to delete\n");
+						+ "		* Enter 2 to delete\n"
+						+ "		* Enter anything else to exit to the MAIN EMPLOYEE DASHBOARD\n");
 				if (sc.nextLine().equals("1")) {
 					int c = BankAccount.approveAccount(selected_account.getAccount_number());
 				} else if (sc.nextLine().equals("2")) {
 					int c = BankAccount.deleteAccount(selected_account.getAccount_number());
+					// delete from this list, not from the db.
+					// Db deletion occurs above
+					pending.remove(selected_account);
 				}
 
-				// delete from this list, not from the db.
-				// Db deletion occurs above
-				pending.remove(selected_account);
 			}
 
 			log.info("Would you like to continue or exit?\n" + "		* Press 1 to continue\n"
-					+ " 		* Press anything else to exit\n");
+					+ " 		* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD\n");
 			run = sc.nextLine().equals("1") ? true : false;
 
 		} while (run);
@@ -441,15 +451,15 @@ public class Dashboard {
 
 	private void AccountsDashboardEmployeeView(Scanner sc, User user) {
 		// see accounts that are pending
-		log.info(user.getUserName() + "'s Bank Accounts\n");
+		log.info(user.getUserName() + "'s BANK ACCOUNTS\n");
 		// refreshes entire account list
 		user.setAccounts(BankAccount.getUserAccounts(user));
 		// see accounts that can be used
-		log.info("Pending Accounts\n");
+		log.info("PENDING ACCOUNTS\n");
 		List<BankAccount> ba = user.getAccounts();
 		ba.stream().filter(b -> b.account_status() == false).forEach(b -> log.info("	" + b));
 
-		log.info("\nActive Accounts\n");
+		log.info("\nACTIVE ACCOUNTS\n");
 
 		int i = 0;
 		for (BankAccount b : ba) {
@@ -473,7 +483,7 @@ public class Dashboard {
 			}
 
 			log.info("\nEnter the index of the user to see their account!\n"
-					+ "			* Press anything else to exit\n");
+					+ "			* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD\n");
 
 			int index = 0;
 			try {
@@ -481,14 +491,14 @@ public class Dashboard {
 				if (index < 0 || index > i)
 					break;
 			} catch (NumberFormatException e) {
-				log.info("... Leaving!");
+				log.info("... Leaving!\n");
 				break;
 			}
 
 			User selected_user = user_list.get(index);
 			AccountsDashboardEmployeeView(sc, selected_user);
 			log.info("\nWould you like to continue or exit?\n" + "		* Press 1 to continue\n"
-					+ " 		* Press anything else to exit\n");
+					+ " 	* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD\n");
 			run = sc.nextLine().equals("1") ? true : false;
 
 		} while (run);

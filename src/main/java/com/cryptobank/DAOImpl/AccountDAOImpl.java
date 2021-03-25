@@ -109,7 +109,7 @@ public class AccountDAOImpl implements AccountDAO {
 				User user = new User();
 				account.setAccount_id(rs.getInt("account_id"));
 				account.setAccount_number(rs.getInt("account_number"));
-				account.setAccount_balance(rs.getDouble("account_id"));
+				account.setAccount_balance(rs.getDouble("account_balance"));
 				account.setAccount_status(rs.getBoolean("account_status"));
 
 				// how to get all of a user's information in this table

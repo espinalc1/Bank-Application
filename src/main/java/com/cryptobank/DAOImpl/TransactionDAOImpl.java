@@ -296,7 +296,7 @@ public class TransactionDAOImpl implements TransactionDAO {
 			String sql = "select * from \r\n" + "	bank_schema.transactions t \r\n"
 					+ "inner join bank_schema.accounts a \r\n" + "	on t.receiver_id = a.account_id \r\n"
 					+ "inner join bank_schema.user_info u \r\n" + "	on a.user_id = u.user_id \r\n"
-					+ "where a.user_id = ? and t.type_id = 1 and t.status = 'pending';\r\n" + "";
+					+ "where a.user_id = ? and t.type_id = 2 and t.status = 'pending';\r\n" + "";
 
 			PreparedStatement p1 = connection.prepareStatement(sql);
 			p1.setInt(1, user.getUserId());

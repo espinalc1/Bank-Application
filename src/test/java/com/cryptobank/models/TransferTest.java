@@ -25,52 +25,42 @@ public class TransferTest {
 
 	@Before
 	public void setUpUsers() {
-		testUser = User.createUser("testUser1", "12341234", "testEmail1@test.com", UserGroup.customer);
+		testUser = User.createUser("testUser9", "12341234", "testEmail9@test.com", UserGroup.customer);
 		UserGroup.addToGroup(testUser);
 		log.info(testUser);
 		testAccount = accountDao.createAccount(testUser);
 		testUser.addAccount(testAccount);
 		log.info(testAccount.toString());
 
-		testUser2 = User.createUser("testUser2", "12341234", "testEmail2@test.com", UserGroup.customer);
+		testUser2 = User.createUser("testUser10", "12341234", "testEmail10@test.com", UserGroup.customer);
 		UserGroup.addToGroup(testUser2);
 		log.info(testUser2);
 		testAccount2 = accountDao.createAccount(testUser2);
 		testUser2.addAccount(testAccount2);
 		log.info(testAccount2.toString());
 
-		
-		
-		testTran = new Transfer(testAccount, testAccount2, 0.0);
+		testTran = new Transfer(testAccount, testAccount2, 10.0);
 
 	}
- 
+
 	@After
 	public void tearDownUser() {
-		
-		
-		/*
-		 * log.info(testUser.getAccounts().get(0).toString()); // first deletes the bank
-		 * account - no on delete then cascade
-		 * accountDao.deleteAccountById(testUser.getAccounts().get(0).getAccount_id());
-		 * // then deletes the user userDao.deleteUser(testUser);
-		 * 
-		 * log.info(testUser2.getAccounts().get(0).toString()); // first deletes the
-		 * bank account - no on delete then cascade
-		 * accountDao.deleteAccountById(testUser2.getAccounts().get(0).getAccount_id());
-		 * // then deletes the user userDao.deleteUser(testUser2);
-		 */
-
 	}
 
 	@Test
 	public void test() {
 		// make a transaction
-
-		if (tranDao.executeTransfer(testTran) > 0) {
-			log.info("It worked!!");
+		for (int i = 0; i < 11; i++) {
+			int transaction_id = tranDao.executeTransfer(testTran);
+			if (transaction_id > 0) {
+				log.info("It worked!!");
+			} else {
+				log.info("Failed!");
+			}
 		}
-		tranDao.deleteUsersTransactions(testUser);
+		tranDao.getTransactionsByUser(testUser).stream().forEach(tran -> log.info(tran));
+		log.info(accountDao.getUserAccounts(testUser));
+		log.info(accountDao.getUserAccounts(testUser2));
 
 	}
 }
