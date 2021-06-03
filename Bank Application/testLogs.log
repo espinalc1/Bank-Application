@@ -3038,3 +3038,40 @@ INFO - {class: com.cryptobank.frontend.Dashboard} -
 Enter the index of the account you'd like to approve or delete here: 
 		* Press any other number to quit to the EMPLOYEE DASHBOARD!
 
+INFO - {class: com.cryptobank.frontend.Dashboard} - What would you like to do to this account?
+		* Enter 1 to approve
+		* Enter 2 to delete
+		* Enter anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=187, account_balance=100.0, account_user=30]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 5 [account_number=189, account_balance=0.0, account_user=193]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - What would you like to do to this account?
+		* Enter 1 to approve
+		* Enter 2 to delete
+		* Enter anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN EMPLOYEE DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 0 [account_number=185, account_balance=0.0, account_user=190]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 1 [account_number=186, account_balance=200.0, account_user=191]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 2 [account_number=180, account_balance=50.0, account_user=185]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 3 [account_number=181, account_balance=150.0, account_user=186]
+INFO - {class: com.cryptobank.frontend.Dashboard} - index 4 [account_number=189, account_balance=0.0, account_user=193]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+Enter the index of the account you'd like to approve or delete here: 
+		* Press any other number to quit to the EMPLOYEE DASHBOARD!
+
