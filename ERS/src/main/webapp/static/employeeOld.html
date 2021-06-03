@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <!-- http://localhost:8080/ERS/user/login-->
+    <nav>
+        <button type="button" id="logout">Logout</button>
+        <button type="button" id="accountInfo">Account Info</button>
+        <button type="button" id="seeAllPending">Pending Reimbursements</button>
+        <button type="button" id="seeAllResolved">Resolved Reimbursements</button>
+        <button type="button" id="requestReim">Request Reimbursement</button>
+    </nav>
+
+    <h1>Employee</h1>
+    <div id="mainContainer">
+        <div id="mainContent">
+            <h2>Choose An Option from Above</h2>
+            <form id="reimRequestForm">
+                <h3> Make a Reimbursement Request </h3>
+                <label for="descr">Description</label>
+                <input type="text" id="descr"><br /><br />
+
+                <label for="reimTypes">Expense Type</label>
+                <select id="reimTypes" name="reimTypes">
+                    <option value="lodging">Lodging</option>
+                    <option value="food">Food</option>
+                    <option value="other">Other</option>
+                </select><br /><br />
+
+                <label for="amount">Amount</label>
+                <input type="text" id="amount"><br /><br />
+                <button id="submitButton">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script>
+        document.getElementById("logout").addEventListener("click", logout);
+        function logout() {
+            alert("logging out");
+        }
+
+
+        document.getElementById("accountInfo").addEventListener("click", accountInfo);
+        function accountInfo() {
+            alert("accountInfo");
+        }
+
+
+        document.getElementById("seeAllPending").addEventListener("click", seeAllPending);
+        function seeAllPending() {
+            let table = document.createElement("table");
+            let tableRow = document.createElement("tr");
+            tableRow.innerHTML = "<th>User Id</th><th>User Name</th><th>User Email</th>";
+            table.appendChild(tableRow);
+            // logic to get the actual values
+
+            let oldChild = document.getElementById("mainContent");
+            document.getElementById("mainContainer").replaceChild(table, oldChild);
+            table.setAttribute("id", "mainContent");
+        }
+
+
+        document.getElementById("seeAllResolved").addEventListener("click", seeResolved);
+        function seeResolved() {
+            let table = document.createElement("table");
+            let tableRow = document.createElement("tr");
+            tableRow.innerHTML = "<th>Reim Id</th><th>Reim Description</th><th>Reim Amount</th><th>Reim Type</th>";
+            table.appendChild(tableRow);
+            // logic to get the actual values
+            let oldChild = document.getElementById("mainContent");
+            document.getElementById("mainContainer").replaceChild(table, oldChild);
+            table.setAttribute("id", "mainContent");
+        }
+
+
+        document.getElementById("requestReim").addEventListener("click", requestReim);
+        function requestReim() {
+
+            alert("request form");
+            // <form id="reimRequestForm">
+            let form = document.createElement("form");
+            form.setAttribute("id", "reimRequestForm");
+
+            //     <h3> Make a Reimbursement Request </h3>
+            let formTitle = document.createElement("h2");
+            formTitle.innerHTML = "<h4>Make a Reimbursement Request<h4>";
+            form.appendChild(formTitle);
+
+            //     <label for="descr">Description</label>
+            let labelDescr = document.createElement("label");
+            labelDescr.setAttribute("for", "descr");
+            labelDescr.innerHTML = "Description: ";
+            form.appendChild(labelDescr);
+            //     <input type="text" id="descr"><br/><br/>
+            let inputDescr = document.createElement("input");
+            inputDescr.setAttribute("id", "descr");
+            inputDescr.setAttribute("type", "text");
+
+            
+
+            //     <label id="reimTypes">Expense Type</label>
+            let labelType = document.createElement("label");
+            labelType.setAttribute("for", "reimTypes");
+            labelType.innerHTML = "Expense Types: ";
+            form.appendChild(labelType);
+            //     <select id="reimTypes" name="reimTypes">
+            let select = document.createElement("select");
+            select.setAttribute("id", "reimTypes");
+            select.setAttribute("name", "reimTypes");
+            //         <option value="lodging">Lodging</option>
+            let lodging = document.createElement("option");
+            lodging.setAttribute("value", "lodging");
+            lodging.innerHTML = "Lodging";
+            select.appendChild(lodging);
+            //         <option value="food">Food</option>
+            let food = document.createElement("option");
+            food.setAttribute("value", "food");
+            food.innerHTML = "Food";
+            select.appendChild(food);
+            //         <option value="other">Other</option>                
+            //     </select><br/><br/>
+            let other = document.createElement("option");
+            other.setAttribute("value", "other");
+            other.innerHTML = "Other";
+            select.appendChild(other);
+            form.appendChild(select);
+
+
+            //     <label for="amount">Amount</label>
+            let labelAmount = document.createElement("label");
+            labelAmount.setAttribute("for", "amount");
+            labelAmount.innerHTML = "Amount";
+            form.appendChild(labelAmount);
+
+            //     <input type="text" id="descr"><br/><br/>
+            let inputAmount = document.createElement("input");
+            inputAmount.setAttribute("id", "amount");
+            inputAmount.setAttribute("type", "text");
+            form.appendChild(inputAmount);
+
+            let submit = document.createElement("button");
+            submit.setAttribute("type", "button");
+            submit.setAttribute("id", "requestButton")
+            submit.innerHTML = "Submit";
+            form.append(submit);
+            // </form>
+
+            let oldChild = document.getElementById("mainContent");
+            document.getElementById("mainContainer").replaceChild(form, oldChild);
+            form.setAttribute("id", "mainContent");
+
+        }
+
+    </script>
+</body>
+
+</html>

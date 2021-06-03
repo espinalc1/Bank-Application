@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Page 2</title>
+</head>
+
+<body>
+
+    <!-- http://localhost:8080/ERS/user/login-->
+    <nav class="buttons">
+        <button type="button" onclick="alert('Logged Out')" id="logout">Logout</button>
+        <button type="button" onclick="openView('accountInfo')" id="accountInfoBtn">Account Info</button>
+        <button type="button" onclick="openView('pendingReims')" id="pendingReimsBtn">Pending Reimbursements</button>
+        <button type="button" onclick="openView('resolvedReims')" id="resolvedReimsBtn">Resolved Reimbursements</button>
+        <button type="button" onclick="openView('requestReim')" id="requestReimBtn">Request Reimbursement</button>
+    </nav>
+
+    <h1>Employee Dashboard</h1>
+
+    <div class="page" id="requestReim">
+        <h2>Choose An Option from Above</h2>
+        <form id="reimRequestForm">
+            <h3> Make a Reimbursement Request </h3>
+            <label for="descr">Description</label>
+            <textarea name="descr" rows="10" cols="30">
+               Type in your explanation here.
+            </textarea required><br /><br />
+            <label for="reimTypes">Expense Type</label>
+            <select id="reimTypes" name="reimTypes">
+                <option value="lodging">Lodging</option>
+                <option value="food">Food</option>
+                <option value="travel">Travel</option>
+                <option value="other">Other</option>
+            </select><br /><br />
+
+            <label for="amount">Amount</label>
+            <input type="text" id="amount" name="amount" required><br /><br />
+            <button type="submit" id="submitReimBtn">Submit</button>
+        </form>
+    </div>
+
+    <div class="page" id="pendingReims" style="display:none">
+        <h3> See All Pending Reimbursements </h3>
+        <table id="pendingReimsTable">
+            <tr>
+                <th>Reim Id</th>
+                <th>Reim Description</th>
+                <th>Reim Amount</th>
+                <th>Reim Type</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page" id="resolvedReims" style="display:none">
+        <h3> See All Resolved Reimbursements </h3>
+        <table id="resolvedReimsTable">
+            <tr>
+                <th>Reim Id</th>
+                <th>Reim Description</th>
+                <th>Reim Amount</th>
+                <th>Reim Type</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page" id="accountInfo" style="display:none">
+        <h3> Account Information </h3>
+        <div id="currentAccountInfo">
+            <h4> Current Account Information </h4>
+            <table id="currentAccountInfoTable">
+                <tr>
+                    <th>Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                    <th>email</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="newUserNameSection">
+            <form id="newUserNameForm">
+                <h4> Enter a New Username </h4>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username"><br /><br />
+                <button type="submit">Submit</button>
+            </form>
+            <div id="newUsernameSectionMessage">
+
+            </div>
+        </div>
+
+        <div id="newEmailSection">
+            <form id="newEmailForm">
+                <h4> Enter a New Email </h4>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email"><br /><br />
+                <button type="submit">Submit</button>
+            </form>
+            <div id="newEmailSectionMessage">
+
+            </div>
+        </div>
+
+        <div id="newPasswordSection">
+            <form id="newPasswordForm">
+                <h4> Enter a New Password </h4>
+                <label for="password1">Password 1:</label>
+                <input type="password" name="password1" id="password1"><br /><br />
+                <label for="password2">Password 2:</label>
+                <input type="password" name="password2" id="password2"><br /><br />
+                <button type="submit" onsubmit="return validatePasswords()">Submit</button>
+            </form>
+            <div id="newPasswordSectionMessage">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="static/employee.js"></script>
+</body>
+
+</html>

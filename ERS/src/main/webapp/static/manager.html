@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Manager Page</title>
+</head>
+
+<body>
+
+    <!-- http://localhost:8080/ERS/user/login-->
+    <nav class="buttons">
+        <button type="button" onclick="alert('Logged Out')" id="logout">Logout</button>
+        <button type="button" onclick="openView('accountInfo')" id="accountInfoBtn">Account Info</button>
+        <button type="button" onclick="openView('pendingReims')" id="pendingReimsBtn">Pending Reimbursements</button>
+        <button type="button" onclick="openView('seeAllEmployees')" id="seeAllEmployeesBtn">See All Employees</button>
+        <button type="button" onclick="openView('resolvedReims')" id="resolvedReimsBtn">All Resolved
+            Reimbursement</button>
+    </nav>
+
+    <h1>Manager Dashboard</h1>
+
+    <div class="page" id="accountInfo" style="display:none">
+        <h3> Manager Account Info </h3>
+        <ul>
+            <li><label for="firstname">First Name:
+                </label>
+                <div id="firstname"></div>
+            </li>
+            <li><label for="lastname">Last Name:
+                </label>
+                <div id="lastname"></div>
+            </li>
+            <li><label for="username">User Name:
+                </label>
+                <div id="username"></div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="page" id="pendingReims" style="display:block">
+        <h3> See All Pending Reimbursement Requests </h3>
+        <table>
+            <tr>
+                <th>Reim Id</th>
+                <th>Reim Description</th>
+                <th>Reim Amount</th>
+                <th>Reim Type</th>
+                <th>Employee</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page" id="seeAllEmployees" style="display:none">
+        <h3> See All Employees </h3>
+        <table id="allEmployeesTable">
+            <tr>
+                <th>Employee Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>User Name</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Mock Row</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td><button id="10000" class="selectEmpBtns">Select</button></td>
+            </tr>
+            <tr>
+                <td>Mock Row</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td><button id="10000" class="selectEmpBtns">Select</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- button for this in seeAllEmployees! -->
+    <div class="page" id="employeeReims" style="display:none">
+        <h3> See Specific Employee Reimbursement Requests </h3>
+        <table id="employeeReimsTable">
+            <tr>
+                <th>Reim Id</th>
+                <th>Reim Description</th>
+                <th>Reim Amount</th>
+                <th>Reim Type</th>
+                <th>Employee</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page" id="resolvedReims" style="display:none">
+        <h3> See All Pending Reimbursement Requests </h3>
+        <table id="resolvedReimsTable">
+            <tr>
+                <th>Reim Id</th>
+                <th>Reim Description</th>
+                <th>Reim Amount</th>
+                <th>Reim Type</th>
+                <th>Employee</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="static/manager.js"></script>
+</body>
+
+</html>

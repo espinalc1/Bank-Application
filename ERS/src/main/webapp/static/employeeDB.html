@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Page 2</title>
+</head>
+
+<body>
+
+    <!-- http://localhost:8080/ERS/user/login-->
+    <nav class="buttons">
+        <button type="button" onclick="alert('Logged Out')" id="logout">Logout</button>
+        <button type="button" onclick="openView('accountInfo')" id="accountInfoBtn">Account Info</button>
+        <button type="button" onclick="openView('pendingReims')" id="pendingReimsBtn">Pending Reimbursements</button>
+        <button type="button" onclick="openView('resolvedReims')" id="resolvedReimsBtn">Resolved Reimbursements</button>
+        <button type="button" onclick="openView('requestReim')" id="requestReimBtn">Request Reimbursement</button>
+    </nav>
+
+    <h1>Employee Dashboard</h1>
+
+    <div class="page" id="requestReim">
+        <h2>Choose An Option from Above</h2>
+        <form id="reimRequestForm">
+            <h3> Make a Reimbursement Request </h3>
+            <label for="descr">Description</label>
+            <input type="text" id="descr"><br /><br />
+
+            <label for="reimTypes">Expense Type</label>
+            <select id="reimTypes" name="reimTypes">
+                <option value="lodging">Lodging</option>
+                <option value="food">Food</option>
+                <option value="other">Other</option>
+            </select><br /><br />
+
+            <label for="amount">Amount</label>
+            <input type="text" id="amount"><br /><br />
+            <button id="submitButton">Submit</button>
+        </form>
+    </div>
+
+    <div class="page" id="pendingReims" style="display:none">
+        <h3> See All Pending Reimbursements </h3>
+        <table>
+            <tr>
+                <th>Reim Id</th>
+                <th>Reim Description</th>
+                <th>Reim Amount</th>
+                <th>Reim Type</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page" id="resolvedReims" style="display:none">
+        <h3> See All Resolved Reimbursements </h3>
+        <table>
+            <tr>
+                <th>Reim Id</th>
+                <th>Reim Description</th>
+                <th>Reim Amount</th>
+                <th>Reim Type</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page" id="accountInfo" style="display:none">
+        <h3> See Account Information </h3>
+        <ul>
+            <li><label for="firstname">First Name:
+                </label>
+                <div id="firstname"></div>
+            </li>
+            <li><label for="lastname">Last Name:
+                </label>
+                <div id="lastname"></div>
+            </li>
+            <li><label for="username">User Name:
+                </label>
+                <div id="username"></div>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        function openView(view) {
+            let views = document.getElementsByClassName('page');
+            let len = views.length;
+            for (let index = 0; index < len; index++) {
+                views[index].style.display = "none";
+            }
+
+            document.getElementById(view).style.display = "block";
+        }
+
+        document.getElementById('accountInfoBtn').addEventListener('click', function () { alert("Getting Account Info") })
+        document.getElementById('pendingReimsBtn').addEventListener('click', function () { alert("Getting Pending Reimbursements") })
+        document.getElementById('resolvedReimsBtn').addEventListener('click', function () { alert("Getting All Resolved Reimbursements") })
+        document.getElementById('requestReimBtn').addEventListener('click', function () { alert("Request Reimbursement Page") })
+
+
+    </script>
+</body>
+
+</html>
