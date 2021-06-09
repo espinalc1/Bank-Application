@@ -1,9 +1,11 @@
 package com.cryptobank.dbutil;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+import java.util.Properties;
 
 public class PostgresConnection {
 	public static Connection connection = null;
@@ -13,10 +15,22 @@ public class PostgresConnection {
 	public static Connection getConnection() throws ClassNotFoundException, SQLException {
 		if (connection == null) {
 			Class.forName("org.postgresql.Driver");
-			String url = "jdbc:postgresql://localhost:5432/postgres";
-			String username = "postgres";
-			String password = "H0mel3ss!!!";
-			connection = DriverManager.getConnection(url, username, password);
+
+			FileInputStream fileStream;
+			try {
+				fileStream = new FileInputStream("src/main/resources/application.properties");
+				Properties prop = new Properties();
+				prop.load(fileStream);
+
+				String url = prop.getProperty("url");
+				String username = prop.getProperty("username");
+				String password = prop.getProperty("password");
+				connection = DriverManager.getConnection(url, username, password);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				System.out.println("Connection Wasn't Established!");
+			}
 			return connection;
 		} else {
 			return connection;

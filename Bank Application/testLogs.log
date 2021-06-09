@@ -3075,3 +3075,301 @@ INFO - {class: com.cryptobank.frontend.Dashboard} -
 Enter the index of the account you'd like to approve or delete here: 
 		* Press any other number to quit to the EMPLOYEE DASHBOARD!
 
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - We're so glad that you're taking the first steps to modernize your banking.
+Once again, welcome to the blockchain!
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - What type of account are you creating today?
+Enter 1 for Customer Account
+Enter 2 for *Employee Account
+		* You can apply for a bank account in your dashboard!
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.main.Main} - Hello, Welcome to another Crypto Bank!
+Better yet, welcome to the Blockchain!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.main.Main} - Sorry, that is not a correct command.
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.main.Main} - Sorry, that is not a correct command.
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - We're so glad that you're taking the first steps to modernize your banking.
+Once again, welcome to the blockchain!
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - What type of account are you creating today?
+Enter 1 for Customer Account
+Enter 2 for *Employee Account
+		* You can apply for a bank account in your dashboard!
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - This user name is already taken. Please try again
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Sorry, try again. However, follow these rules
+		* This must be between 8 and 15 characters long.
+		* Also, if it's taken, we'll let you know.
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a username.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter an email address.
+If it's not unique, we'll let you know:
+
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Please enter a password! Here are the rules: 
+		* Your password must be between 8 and 15 characters long
+		* It can include any of the following characters:
+				* upper and lower case characters and numbers.
+				* !@#$%^&*
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - Now, one more time!
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - User [userName=username, email=username@email.com]
+INFO - {class: com.cryptobank.frontend.UserCreatorPrompt} - If you'd like, try to login with your new username and password!
+INFO - {class: com.cryptobank.main.Main} - Would you like to continue or leave?
+Press "1" to continue.
+Enter any other key to leave!
+
+INFO - {class: com.cryptobank.main.Main} - What would you like to do today?
+Press 1 to Login
+Press 2 to Create a New Cryptocurrency Wallet
+
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Please type in your username:
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - Great, now enter your password!
+INFO - {class: com.cryptobank.frontend.LoginPrompt} - 
+Welcome back to the Blockchain, username
+INFO - {class: com.cryptobank.main.Main} - Hello, username.
+Dashboard
+
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - username's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - ... Leaving!
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the MAIN DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to create an account?
+		* Press 1 to create an account
+		* Press anything else to quit to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Would you like to continue or exit?
+		* Press 1 to continue
+ 		* Press anything else to exit to the MAIN DASHBOARD
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the MAIN DASHBOARD!
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Please choose from the following options:
+		* Press 1 to apply for a bank account
+		* Press 2 to check your account(s)
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - username's WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - PENDING WALLETS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - 	[account_number=193, account_balance=100.0, account_user=197]
+INFO - {class: com.cryptobank.frontend.Dashboard} - 
+ACTIVE ACCOUNTS
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - Enter the Account Number of the Bank Account you'd like to see!
+	* Press anything else to exit
+
+INFO - {class: com.cryptobank.frontend.Dashboard} - ... Leaving!
+INFO - {class: com.cryptobank.frontend.Dashboard} - If you want to Create Accounts or View Your Accounts press 1!
+		* Press 1 to continue
+		* or anything else to go to the MAIN DASHBOARD!
+
+INFO - {class: com.cryptobank.main.Main} - Would you like to continue or leave?
+Press "1" to continue.
+Enter any other key to leave!
+
+INFO - {class: com.cryptobank.main.Main} - Take care!
